@@ -13,7 +13,7 @@ The following data cleaning processes were conducted:
 * Split the data into input and output
 
 ## Support Vector Regression
-Support Vector Regression has implemented and optimised using Grid Search. Pre-processing the data using the Min-Max Scaler has the best predictive performance. The R\<sup>2</sup> values show that around 90% of variance is retained by the model for most of the features.
+Support Vector Regression has implemented and optimised using Grid Search. Pre-processing the data using the Min-Max Scaler has the best predictive performance. The R<sup>2</sup> values show that around 90% of variance is retained by the model for most of the features.
 
 ## Artificial Neural Network
-Three Artificial Neural Networks: MLP, Bi-LSTM, CNN have been implemented and optimised using Bayesian Optimisation. Out of the three models, Bi-LSTM achieved the best forecasting performance with StandardScaler as pre-processing, indicated by the average R\<sup>2</sup> value of 0.9 and low MSE and MAE values. A decrease in predictive capability can be noticed as the interval prediction gets larger. 
+Three Artificial Neural Networks: MLP, Bi-LSTM, CNN have been implemented and optimised using Bayesian Optimisation. Out of the three models, Bi-LSTM achieved the best forecasting performance with StandardScaler as pre-processing, indicated by the average R<sup>2</sup> value of 0.9 and low MSE and MAE values. A decrease in predictive capability can be noticed as the interval prediction gets larger. 
