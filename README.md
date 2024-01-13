@@ -10,7 +10,7 @@ The following data cleaning processes were conducted:
 * Denoise the time series
 * Select data according time interval prediction
 * Normalise data using: StandardScaler, MinMaxScaler, Normalisation
-* Split into data into input and output
+* Split the data into input and output
 
 ## Support Vector Regression
 Support Vector Regression has implemented and optimised using Grid Search. Pre-processing the data using the Min-Max Scaler has the best predictive performance. The R\<sup>2</sup> values show that around 90% of variance is retained by the model for most of the features.
